@@ -1,0 +1,48 @@
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\bin\Debug\SmartMovers.V1.exe.config
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\bin\Debug\SmartMovers.V1.exe
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\bin\Debug\SmartMovers.V1.pdb
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers .V1.csprojAssemblyReference.cache
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Customer_Registration.resources
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Form1.resources
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Properties.Resources.resources
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers .V1.csproj.GenerateResource.cache
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers .V1.csproj.CoreCompileInputs.cache
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.exe
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.pdb
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.CustomersOrders.resources
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.ProductManagement.resources
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.LoadManagement.resources
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Depot_Management.resources
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Payment_Management.resources
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Driver_Management.resources
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Assistant_Management.resources
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.LorryManagement.resources
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Container_Management.resources
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Trailer_Management.resources
+C:\Users\Ishara PC\source\repos\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.LocationManagement.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\bin\Debug\SmartMovers.V1.exe.config
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\bin\Debug\SmartMovers.V1.exe
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\bin\Debug\SmartMovers.V1.pdb
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers .V1.csprojAssemblyReference.cache
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Assistant_Management.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Container_Management.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Customer_Registration.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.CustomersOrders.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Depot_Management.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Driver_Management.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Form1.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.LoadManagement.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.LocationManagement.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.LorryManagement.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Payment_Management.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.ProductManagement.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Properties.Resources.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Trailer_Management.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers .V1.csproj.GenerateResource.cache
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers .V1.csproj.CoreCompileInputs.cache
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.exe
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.pdb
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.LoginANDRegister.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.LOGINCustomer.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.Sign_In.resources
+C:\Users\Ishara PC\Desktop\NESE\Shavindu Senadheera\DBMS\SmartMovers .V1\SmartMovers .V1\obj\Debug\SmartMovers.V1.PasswordForget.resources

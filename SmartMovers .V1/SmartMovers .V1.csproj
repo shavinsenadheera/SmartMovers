@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CC847F1C-403D-4E28-B98E-1637A677FB8C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SmartMovers.V1</RootNamespace>
+    <AssemblyName>SmartMovers.V1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assistant Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant Management.Designer.cs">
+      <DependentUpon>Assistant Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Container Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Container Management.Designer.cs">
+      <DependentUpon>Container Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer Registration.Designer.cs">
+      <DependentUpon>Customer Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomersOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomersOrders.Designer.cs">
+      <DependentUpon>CustomersOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Depot Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Depot Management.Designer.cs">
+      <DependentUpon>Depot Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Driver Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Driver Management.Designer.cs">
+      <DependentUpon>Driver Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadManagement.Designer.cs">
+      <DependentUpon>LoadManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LocationManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocationManagement.Designer.cs">
+      <DependentUpon>LocationManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginANDRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginANDRegister.Designer.cs">
+      <DependentUpon>LoginANDRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOGINCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGINCustomer.Designer.cs">
+      <DependentUpon>LOGINCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LorryManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LorryManagement.Designer.cs">
+      <DependentUpon>LorryManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordForget.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordForget.Designer.cs">
+      <DependentUpon>PasswordForget.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment Management.Designer.cs">
+      <DependentUpon>Payment Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductManagement.Designer.cs">
+      <DependentUpon>ProductManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shavi__SmartMoversDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet81.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet81.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Shavi__SmartMoversDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Shavi__SmartMoversDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Sign In.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sign In.Designer.cs">
+      <DependentUpon>Sign In.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trailer Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trailer Management.Designer.cs">
+      <DependentUpon>Trailer Management.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Assistant Management.resx">
+      <DependentUpon>Assistant Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Container Management.resx">
+      <DependentUpon>Container Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer Registration.resx">
+      <DependentUpon>Customer Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomersOrders.resx">
+      <DependentUpon>CustomersOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Depot Management.resx">
+      <DependentUpon>Depot Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Driver Management.resx">
+      <DependentUpon>Driver Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadManagement.resx">
+      <DependentUpon>LoadManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocationManagement.resx">
+      <DependentUpon>LocationManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginANDRegister.resx">
+      <DependentUpon>LoginANDRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGINCustomer.resx">
+      <DependentUpon>LOGINCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LorryManagement.resx">
+      <DependentUpon>LorryManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordForget.resx">
+      <DependentUpon>PasswordForget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment Management.resx">
+      <DependentUpon>Payment Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductManagement.resx">
+      <DependentUpon>ProductManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Sign In.resx">
+      <DependentUpon>Sign In.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trailer Management.resx">
+      <DependentUpon>Trailer Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Shavi__SmartMoversDataSet.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet1.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet1.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet10.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet10.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet11.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet11.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet12.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet12.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet13.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet13.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet14.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet14.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet15.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet15.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet16.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet16.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet17.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet17.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet18.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet18.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet2.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet2.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet3.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet3.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet4.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet4.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet5.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet5.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet6.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet6.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet7.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet7.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet81.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet81.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet81.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet81.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet81.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet81.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet9.xsc">
+      <DependentUpon>Shavi__SmartMoversDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Shavi__SmartMoversDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Shavi__SmartMoversDataSet9.xss">
+      <DependentUpon>Shavi__SmartMoversDataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

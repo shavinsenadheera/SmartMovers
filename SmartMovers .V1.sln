@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartMovers .V1", "SmartMovers .V1\SmartMovers .V1.csproj", "{CC847F1C-403D-4E28-B98E-1637A677FB8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC847F1C-403D-4E28-B98E-1637A677FB8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC847F1C-403D-4E28-B98E-1637A677FB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC847F1C-403D-4E28-B98E-1637A677FB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC847F1C-403D-4E28-B98E-1637A677FB8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB4BA95E-D9EB-49CA-8A41-87F7A9A8A29D}
+	EndGlobalSection
+EndGlobal
